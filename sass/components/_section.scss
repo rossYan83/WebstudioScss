@@ -111,3 +111,128 @@
     fill: #2196F3;
     transition: 0.5s;
 }
+
+.image__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__info-img {
+    width: 370px;
+    height: 294px;
+}
+
+.image__text-text {
+    position: relative;
+    right: 0px;
+    top: -70px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    background: rgba(47, 48, 58, 0.80);
+    text-align: center;
+    padding-bottom: 27px;
+    padding-top: 27px;
+}
+
+.team {
+    background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.team__header {
+    text-align: center;
+}
+
+.team__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__item-img {
+    width: 100%;
+}
+
+.box {
+    position: relative;
+    width: 370px;
+    height: 294px;
+    margin: 0 auto;
+    background-color: #bdbdbd;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.90);
+
+    transform: translatey(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.box:hover .overlay {
+    transform: translatey(0);
+}
+
+.overlay p {
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.overlay code {
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #2a2a2a;
+}
+
+.img__text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.img__text {
+    margin-bottom: 20px;
+}
+
+.image__border {
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    margin-top: 20px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-top: -50px;
+}
+
+.image__border:hover {
+    border-radius: 4px;
+    border: 1px solid #2196F3;
+    transition: 0.5;
+}
+
+.rotate-diagonal-1:hover {
+	animation: rotate-diagonal-1 0.4s linear both;
+}
